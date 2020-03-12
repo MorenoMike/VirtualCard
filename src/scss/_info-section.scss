@@ -1,0 +1,61 @@
+ .info-section {
+     padding: 54px;
+     width: 35%;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     text-decoration: none;
+
+     .logo {
+         border: 5px solid $hover;
+         height: 150px;
+         width: 150px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 2.9rem;
+         color: $hover; 
+         line-height: 0;
+         a{
+             color: $hover;
+         }
+     }
+
+     .info-box {
+         position: absolute;
+         bottom: 60px;
+
+         h4 {
+             font-size: 1.2rem;
+             color: $color3;
+             margin: .5rem 0;
+         }
+
+         p {
+             font-size: 1rem;
+             font-weight: 300;
+             color: $color3;
+             margin: .2rem 0 1.5rem;
+
+         }
+     }
+
+     .icon-section {
+         a {
+             color: white;
+             text-decoration: none;
+             font-size: 1.3rem;
+             padding: 0 10px;
+
+             &:hover {
+                 color: $hover;
+             }
+
+             &:first-child {
+                 padding: 0 10px 0 0;
+             }
+         }
+     }
+ }
+

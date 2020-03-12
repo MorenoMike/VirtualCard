@@ -1,0 +1,73 @@
+
+
+//tablet
+@media (min-width: 768px) and (max-width: 991px) {
+    .home {
+        .content-area {
+            .img-container {
+                padding: 56px 20px 0;
+
+                .user-img {
+                    position: static;
+                    width: 100%;
+                }
+            }
+
+            .profile-section {
+                width: 70%;
+                float: right;
+                padding: 20% 20px 0;
+
+            }
+        }
+    }
+}
+
+//laptop
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home {
+        .content-area {
+            .img-container {
+                padding: 56px 20px 0;
+                float: left;
+
+                .user-img {
+                    position: static;
+                    width: 100%;
+                }
+            }
+
+            .profile-section {
+                width: 70%;
+                float: left;
+                padding: 20% 20px 0;
+                max-width: 800px;
+
+                .primary-btn,
+                .ghost-btn {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+//extra big
+@media (min-width: 1200px) {
+    .home {
+        .content-area {
+            .img-container {
+                padding: 56px 20px 0;
+                float: left;
+            }
+
+            .profile-section {
+                width: 80%;
+                float: left;
+                padding: 20% 60px 0;
+                max-width: 800px;
+            }
+        }
+    }
+}
