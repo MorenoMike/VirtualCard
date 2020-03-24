@@ -4,14 +4,14 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="/main.77bb5cfd.css">
-<script src="/main.77bb5cfd.js"></script></head>
+<link rel="stylesheet" href="/js.00a46daa.css"></head>
 
 <body class="resume">
     <div class="menu-icon"><i class="fas fa-bars"></i></div>
     <section id="menu">
         <nav>
-            <a href="#">Portfolio</a>
-            <a href="#">Resume</a>
+            <a href="http://localhost:1234/">Home</a>
+            <a href="/portfolio.html">Portfolio</a>
         </nav>
     </section>
     <section class="info-section">
@@ -118,6 +118,19 @@
             <!-- End -->
         </div>
     </section>
+
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+     <script>$('.menu-icon').on('click', function () {
+  if ($(this).hasClass('active')) {
+    $(".resume.menu-active").removeClass("menu-active");
+    $(".menu-icon.active").removeClass("active");
+  } else {
+    $('.resume').addClass("menu-active");
+    $('.menu-icon').addClass("active");
+  }
+});</script>
+
     <script type="text/javascript" src="/js.00a46daa.js"></script>
 </body>
 

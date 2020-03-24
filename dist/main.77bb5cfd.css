@@ -190,6 +190,8 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
   transform: translate3d(-100%, 0, 0);
   z-index: 10;
@@ -210,7 +212,7 @@ body {
       #menu nav a:hover {
         color: #bdbdbd; }
 
-.menu-active .menu-icon .fas {
+.menu-active .menu-icon .fa-bars {
   color: white; }
 
 .menu-active #menu {
@@ -315,7 +317,7 @@ body {
         width: 100%; }
     .home .content-area .profile-section {
       width: 100%;
-      padding: 5% 20px 0;
+      padding: 0 20px 0;
       text-align: center; }
       .home .content-area .profile-section .primary-btn,
       .home .content-area .profile-section .ghost-btn {
@@ -371,13 +373,11 @@ body {
       text-align: center; }
     .home .content-area .profile-section .primary-btn {
       margin-right: 20px;
-      margin-left: 15%; }
+      margin-left: 10%; }
     .home .content-area .profile-section .ghost-btn {
       margin-right: 20px; } }
 
 @media (min-width: 1200px) {
-  .home .menu-icon {
-    display: none; }
   .home .content-area .img-container {
     padding: 56px 20px 0;
     float: left; }
@@ -428,6 +428,62 @@ body {
           font-weight: 300;
           font-size: 1rem;
           margin-bottom: .7rem; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .resume .info-section {
+    padding: 25px; }
+    .resume .info-section .info-box {
+      display: none; }
+  .resume .content-area .img-container {
+    padding: 56px 20px 0;
+    height: 50%;
+    width: 100%; }
+    .resume .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .resume .content-area .profile-section {
+    width: 100%;
+    float: right;
+    padding: 0 20px 0; }
+    .resume .content-area .profile-section .profile h1 {
+      text-align: center; }
+      .resume .content-area .profile-section .profile h1 br {
+        display: none; }
+    .resume .content-area .profile-section .profile h5 {
+      text-align: center; }
+    .resume .content-area .profile-section .primary-btn {
+      margin-right: 20px;
+      margin-left: 15%; }
+    .resume .content-area .profile-section .ghost-btn {
+      margin-right: 20px; } }
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .resume .info-section {
+    padding: 25px; }
+    .resume .info-section .info-box {
+      display: none; }
+  .resume .content-area .img-container {
+    padding: 56px 20px 0;
+    height: 50%;
+    width: 100%; }
+    .resume .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .resume .content-area .profile-section {
+    width: 100%;
+    float: right;
+    padding: 0 20px 0; }
+    .resume .content-area .profile-section .profile h1 {
+      text-align: center; }
+      .resume .content-area .profile-section .profile h1 br {
+        display: none; }
+    .resume .content-area .profile-section .profile h5 {
+      text-align: center; }
+    .resume .content-area .profile-section .primary-btn {
+      margin-right: 20px;
+      margin-left: 15%; }
+    .resume .content-area .profile-section .ghost-btn {
+      margin-right: 20px; } }
 
 .portfolio .info-section {
   width: 20%; }

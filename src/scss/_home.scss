@@ -129,7 +129,7 @@
 
             .profile-section {
                 width: 100%;
-                padding: 5% 20px 0;
+                padding: 0 20px 0;
                 text-align: center;
 
                 .primary-btn,
@@ -227,7 +227,7 @@
 
                 .primary-btn {
                     margin-right: 20px;
-                    margin-left: 15%;
+                    margin-left: 10%;
                 }
 
                 .ghost-btn {
@@ -242,9 +242,6 @@
 //extra big
 @media (min-width: 1200px) {
     .home {
-        .menu-icon {
-            display: none;
-        }
         .content-area {
             .img-container {
                 padding: 56px 20px 0;

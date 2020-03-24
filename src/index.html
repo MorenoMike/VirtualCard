@@ -50,6 +50,17 @@
                 </div>
             </div>
         </section>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        
+        <script>$('.menu-icon').on('click', function () {
+    if ($(this).hasClass('active')) {
+        $(".home.menu-active").removeClass("menu-active");
+        $(".menu-icon.active").removeClass("active");
+    } else {
+        $('.home').addClass("menu-active");
+        $('.menu-icon').addClass("active");
+    }
+})</script>
         <script type="text/javascript" src="./js/index.js"></script>
     </body>
 </html>

@@ -17,7 +17,7 @@ body {
     padding: 20px;
     z-index: 11;
 
-    .fas {
+    .fas{
         font-size: 2rem;
         color: $color1;
     }
@@ -78,6 +78,8 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
     transform: translate3d(-100%, 0, 0);
     z-index: 10;
@@ -107,7 +109,7 @@ body {
 
 .menu-active {
     .menu-icon {
-        .fas {
+        .fa-bars {
             color: white;
         }
     }

@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="/main.77bb5cfd.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/js.00a46daa.css"></head>
+</head>
 
 <body class="portfolio">
     <div class="menu-icon"><i class="fas fa-bars"></i></div>
     <section id="menu">
         <nav>
-            <a href="#">Portfolio</a>
-            <a href="#">Resume</a>
+            <a href="http://localhost:1234/">Home</a>
+            <a href="/resume.html">Resume</a>
         </nav>
     </section>
     <section class="info-section">
@@ -36,21 +36,23 @@
                     <h1>Latest Works</h1>
                 </div>
                 <div class="project-section">
-                    <div class="project-box" style=" background:
-                        url('https://sneakerbardetroit.com/wp-content/uploads/2019/10/adidas-Yeezy-Boost-380-Alien-FB6878-Release-Date-12.jpg')
-                        no-repeat center center;">
-                        <div class="grey-bg">
-                            <div class="project-info">
-                                <div class="project-details">
-                                    Client: Nike Year: 2017 Type: Ecommerce
+                    <div class="project-box">
+                        <img src="/Kayak-email.ec764190.png" alt="">
+                        <a href="https://kayakemailproject.netlify.com" class="grey-bg image fit ele">
+
+                                <div class="project-info">
+                                    <div class="project-details">
+                                        Client: Kayak: 2020 Type: Email
+                                    </div>
+                                    <div class="project-title">
+                                        Promotion
+                                    </div>
+                                    <i class="fas fa-long-arrow-alt-right"></i>
                                 </div>
-                                <div class="project-title">
-                                    The Last Yeezys
-                                </div>
-                                <i class="fas fa-long-arrow-alt-right"></i>
-                            </div>
-                            
-                        </div>
+
+                            </a>
+                      
+                        
                     </div>
                     <div class="project-box" style=" background:
                         url('https://cdn.dribbble.com/users/664866/screenshots/4043218/neon.png')
@@ -105,6 +107,19 @@
             <!-- Work Ends -->
         </div>
     </section>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+ <script>$('.menu-icon').on('click', function () {
+  if ($(this).hasClass('active')) {
+    $(".portfolio.menu-active").removeClass("menu-active");
+    $(".menu-icon.active").removeClass("active");
+  } else {
+    $('.portfolio').addClass("menu-active");
+    $('.menu-icon').addClass("active");
+  }
+});</script>
+
     <script type="text/javascript" src="/js.00a46daa.js"></script>
 </body>
 
